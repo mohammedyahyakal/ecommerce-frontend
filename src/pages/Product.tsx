@@ -61,7 +61,7 @@ const Product = () => {
         <Loading />
       ) : (
         <Container>
-          {!!id && productData && _.isEmpty(allProducts) ? (
+          {!!id && productData ? (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               <div className="flex flex-start">
                 <div>
